@@ -9,22 +9,23 @@ body, html {
     background-image: url("https://i.ytimg.com/vi/qIIN64bUbsI/maxresdefault.jpg");
 
     /* Set a specific height */
-    height: 50%;
+    height: 100%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    filter: blur(10px);
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 20%;
+    transform: translate(0, -50%);
     color: white;
 }
 
